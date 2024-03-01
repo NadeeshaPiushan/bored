@@ -1,0 +1,25 @@
+
+.container {
+  display: flex; /* Enable flexbox for the container */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  height: 100vh;
+  flex-direction: column;
+}
+
+div {
+	font-size: 50px;
+}
+
+#btn {
+	margin-top: 20px;
+	background-color: lightsalmon; /* Green */
+	border: none;
+	border-radius: 20px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
